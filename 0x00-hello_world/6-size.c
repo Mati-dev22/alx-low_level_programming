@@ -3,6 +3,7 @@
  * Description: main - prints the string in the printf function.
  * Return: 0 if ok
  */
+
 {
 	int main(void)
 	printf("size of a char: %d byte(s)\n", sizeof(char));
