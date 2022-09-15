@@ -2,7 +2,7 @@
 
 /**
  * description: main - entry point
- * Return - 0 (if successful)
+ * Return - always 0 (if successful)
  */
 int main(void)
 {
@@ -12,10 +12,10 @@ int main(void)
 	long long int lli;
 	float f;
 
-	printf("size of a char: %d byte(s)\n", sizeof(c));
-	printf("size of an int: %d byte(s)\n", sizeof(i));
-	printf("size of a long int: %d byte(s)\n", sizeof(li));
-	printf("size of a long long int: %d byte(s)\n", sizeof(lli));
-	printf("size of a float: %d byte(s)\n", sizeof(f));
+	printf("size of a char: %lu byte(s)\n",(unsigned long)sizeof(c));
+	printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(i));
+	printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(li));
+	printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(lli));
+	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
