@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
- * Description: main - main block
- * Return: 0 if succesful 
+ * main - entry point
+ * return - 0 if successful
  */
 int main(void)
 {
