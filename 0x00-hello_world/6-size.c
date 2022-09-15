@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * Description: main - main block
- *
  * Return: 0 if succesful 
  */
 int main(void)
