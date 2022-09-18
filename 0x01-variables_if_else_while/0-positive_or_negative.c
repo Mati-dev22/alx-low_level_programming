@@ -1,17 +1,14 @@
 #include <stdlib.h>
-
 #include <time.h>
+#include <stdio.h>
 
-/* more headers goes there */
-
-
-
-/* betty style doc for function main goes there */
-
+/**
+ * Main - prints a randum number and indicstes whether it is positve, negative or zero.
+ *
+ * return- Always 0
+ */
 int main(void)
-
 {
-
 		int n;
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
@@ -23,7 +20,5 @@ int main(void)
 			printf("%d is negative\n", n);
 		else
 			printf(%d is zero\n", n);
-
 		return (0);
-
 }
