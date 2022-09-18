@@ -4,7 +4,7 @@
 /**
  * Main - print if the last digit is 5 or 0 or < 6 but not 0.
  * Description: using the main function
- * this programg is 5 or 0 or < 6 but not 0.
+ * this program prints "Program is 5 or 0 or < 6 and not 0"
  * Return: 0
  */
 int main(void)
