@@ -7,3 +7,4 @@ printing numbers
 use int instead of char
 alphabet in reverse
 Hexadecimal 1-9 and A-F
+combination using for and if
