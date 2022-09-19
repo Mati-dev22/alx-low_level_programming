@@ -2,9 +2,9 @@
 /**
  * main - prints lowercase and uppercase alphabets.
  *
- * description: using the main function
+ * Description: using the main function
  * this program prints "Programming for lowercase and uppercase alphabets"
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
