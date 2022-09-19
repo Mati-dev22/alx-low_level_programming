@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints numbers using int not char.
+ * main - prints numbers using int not char
  *
  * Description: using the main function
  * this program prints "programming to print numbers using int"
@@ -13,7 +13,7 @@ int main(void)
 	for (i = '0'; i <= '9'; i++)
 		putchar(i);
 
-	putchar('\n')'
+	putchar('\n');
 
 			return (0);
 			}
