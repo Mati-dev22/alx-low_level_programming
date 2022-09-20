@@ -10,3 +10,4 @@ Hexadecimal 1-9 and A-F
 combination using for and if
 more combination
 Combination of three digits
+numbers as 00 01
