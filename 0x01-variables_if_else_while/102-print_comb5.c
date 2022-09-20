@@ -12,7 +12,7 @@ int main(void)
 	int i2;
 
 	while (i1 != 99)
-       	{
+	{
 		i2 = i1;
 		while (i2 <= 99)
 		{
