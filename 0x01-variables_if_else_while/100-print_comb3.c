@@ -15,7 +15,7 @@ int main()
 		i2 = 0;
 		while(i2 <= 9)
 		{
-			if(i1 != i2 && i1 <i2)
+			if(i1 != i2 && i1 < i2)
 			{
 				putchar(i1 + 48);
 				putchar(i2 + 48);
@@ -32,5 +32,5 @@ int main()
 
 	}
 	putchar('\n');
-	return 0
+	return 0;
 }
