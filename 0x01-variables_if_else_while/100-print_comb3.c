@@ -9,10 +9,10 @@
  */
 int main()
 {
-	int i1 = 0; i2;
+	int i1 = 0;
 	while(i1 <= 9)
 	{
-		i2 = 0;
+		int i2 = 0;
 		while(i2 <= 9)
 		{
 			if(i1 != i2 && i1 < i2)
