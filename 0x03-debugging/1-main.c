@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - causes an infinite loop
- *
+ *main - causes an infinite loop
  * Description: find the problem and comment
  * Return: 0
  */
