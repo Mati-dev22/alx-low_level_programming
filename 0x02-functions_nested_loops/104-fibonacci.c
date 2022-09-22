@@ -1,5 +1,5 @@
 #include <limits.h>
-#include <math. h>
+#include <math>
 #include <stdio.h>
 /**
  * main - entry point
