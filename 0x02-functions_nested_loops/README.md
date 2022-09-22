@@ -10,3 +10,4 @@ Every minute will count
 times table
 add two integers
 Print number till 98
+print number with specified dimention
