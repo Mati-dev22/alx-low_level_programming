@@ -26,8 +26,8 @@ void print_times_table(int n)
 			{
 
 				k = (i * j);
-				_putchar((k < 100) ? ' ' : ((k / 100) + 48);
-				_putchar((k < 10) ? ' ' : ((k / 10) + 48);
+				_putchar((k < 100) ? ' ' : ((k / 100) + 48));
+				_putchar((k < 10) ? ' ' : ((k / 10) + 48));
 				_putchar((k % 10) + 48);
 				}
 				if (j != n)
@@ -39,4 +39,4 @@ void print_times_table(int n)
 				}
 				_putchar('\n');
 				}
-				}
+			}
