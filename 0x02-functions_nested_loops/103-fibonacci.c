@@ -16,7 +16,8 @@ int main(void)
 			sum += b;
 		b += a;
 		a = b - a;
-											} while (b <= 4000000);
+
+	} while (b <= 4000000);
 
 	printf("%ld\n", sum);
 
