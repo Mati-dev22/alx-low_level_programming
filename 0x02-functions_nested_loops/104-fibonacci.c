@@ -1,6 +1,7 @@
 #include <limits.h>
-#include <math>
+#include <math.h>
 #include <stdio.h>
+
 /**
  * main - entry point
  *
