@@ -8,3 +8,4 @@ Absolute value of number
 last digit of a number
 Every minute will count
 times table
+add two integers
