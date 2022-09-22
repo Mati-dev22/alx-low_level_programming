@@ -7,3 +7,4 @@ if n is +, return 1 if -ve, return -1 else 0
 Absolute value of number
 last digit of a number
 Every minute will count
+times table
