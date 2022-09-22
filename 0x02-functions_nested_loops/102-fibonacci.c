@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - entry point
  *
  * Return: Always 0.
@@ -15,8 +14,9 @@ int main(void)
 	{
 		printf("%ld", a);
 		if (i < 49)
-												{
-													b += a;
+		{
+
+			b += a;
 			a = b - a;
 			printf(", ");
 		}
