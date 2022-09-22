@@ -12,3 +12,4 @@ add two integers
 Print number till 98
 print number with specified dimention
 program that computes and prints the sum of all the multiples of 3 or 5
+prints the first 50 Fibonacci numbers, starting with 1 and 2
