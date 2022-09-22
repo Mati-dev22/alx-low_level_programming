@@ -5,7 +5,7 @@
  *
  * Return: absolute value of i
  */
-int _abs(int)
+int _abs(int i)
 {
 	return (i * ((i > 0) - (i < 0)));
 }
