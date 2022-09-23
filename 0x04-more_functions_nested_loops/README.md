@@ -11,3 +11,4 @@ draws a diagonal line on the terminal
 prints a square
 Fizz-Buzz
 prints a triangle
+finds and prints the largest prime factor of the number 612852475143
