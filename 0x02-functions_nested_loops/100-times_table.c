@@ -1,46 +1,48 @@
 #include "main.h"
 /**
- * print_times_table - print time table for specied dimention
- * @n: dimention of time table
- *
- * Return: void
+ * print_times_table - Prints a multiplication table up to param
+ * @n: The number to be treated
+ * Return: Number matrix
  */
 void print_times_table(int n)
 {
-	int i, j ,k;
+	int x, y, z;
 
-	if (n >= 0 && n <= 15)
+	if (n >= 0 && n <= 14)
 	{
-
-		for (i = 0; i <= n; i++)
+		for (x = 0; x <= n; x++)
 		{
-
-			_putchar('0');
-			for (j = 1; j <= n; j++)
+			for (y = 0; y <= n; y++)
 			{
-
-				_putchar(',');
-				_putchar(' ');
-
-				k = i * j;
-
-				if (k <= 99)
-					_putchar(' ');
-				if (k <= 9)
-					_putchar(' ');
-
-				if (k >= 100)
+				z = x * y;
+				if (z > 99)
 				{
-
-					_putchar((k / 100) +'0');
-					_putchar(((k / 10)) % + '0' );
+					_putchar(',');
+					_putchar(32);
+					_putchar((z / 100) + '0');
+					_putchar(((z / 10) % 10) + '0');
+					_putchar((z % 10) + '0');
 				}
-				else if (k <= 99 && k >= 10)
+				else if (z > 9)
 				{
-					_putchar((k / 10) + '0');
+					_putchar(',');
+					_putchar(32);
+					_putchar(32);
+					_putchar(((z / 10) % 10) + '0');
+					_putchar((z % 10) + '0');
 				}
-				_putchar((k % 10) + '0');
-			}
+				else
+				{
+					if (y != 0)
+					{
+						_putchar(',');
+						_putchar(32);
+						_putchar(32);
+						_putchar(32);
+					}
+					_putchar(z + '0');
+				}
+													}
 			_putchar('\n');
 		}
 	}
