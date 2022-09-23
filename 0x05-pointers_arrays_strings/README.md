@@ -11,3 +11,4 @@ prints half of a string
 prints n elements of an array of integers
 Copy a string
 convert a string to an integer
+program that generates random valid passwords
