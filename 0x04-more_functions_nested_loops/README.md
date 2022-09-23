@@ -10,3 +10,4 @@ draws a straight line in the terminal
 draws a diagonal line on the terminal
 prints a square
 Fizz-Buzz
+prints a triangle
