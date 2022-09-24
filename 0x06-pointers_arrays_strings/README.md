@@ -11,3 +11,4 @@ encodes a string using rot13
 prints an integer
 cheker
 Magic
+adds two numbers
