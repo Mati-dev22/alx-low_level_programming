@@ -12,3 +12,4 @@ prints an integer
 cheker
 Magic
 adds two numbers
+ prints a buffer
