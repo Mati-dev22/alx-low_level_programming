@@ -9,3 +9,4 @@ function that capitalizes all words of a string
 encodes a string using rot13
  prints an integer
 prints an integer
+cheker
