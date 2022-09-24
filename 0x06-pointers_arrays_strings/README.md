@@ -10,3 +10,4 @@ encodes a string using rot13
  prints an integer
 prints an integer
 cheker
+Magic
