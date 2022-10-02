@@ -1,3 +1,4 @@
 List of prototypes
 copies memory area
 copies memory area
+fills memory with a constant byte
